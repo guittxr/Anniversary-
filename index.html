@@ -1,0 +1,601 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Something for You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<section class="page cinematic-opening" id="opening">
+
+  <div class="intro-stars" aria-hidden="true">
+    <span>✦</span><span>✧</span><span>⋆</span><span>✦</span>
+    <span>˚</span><span>✧</span><span>♡</span><span>⋆</span>
+  </div>
+
+  <div class="intro-glow"></div>
+
+  <header>
+    <span>A LITTLE GIFT</span>
+    <span>♡</span>
+  </header>
+
+  <div class="main-content cinematic-content">
+
+    <p class="cinematic-kicker">
+      SOMEONE MADE THIS JUST FOR YOU
+    </p>
+
+    <div class="envelope cinematic-envelope" id="letterEnvelope">
+      <div class="envelope-back"></div>
+
+      <div class="letter-paper">
+        <span>FOR PHAT ♡</span>
+        <span class="letter-heart">♡</span>
+      </div>
+
+      <div class="envelope-front"></div>
+      <div class="envelope-flap"></div>
+
+      <span class="tiny-heart">♡</span>
+      <span class="envelope-sparkle">✦</span>
+    </div>
+
+    <div class="envelope-light" id="envelopeLight"></div>
+    <div class="envelope-particles" id="envelopeParticles"></div>
+
+    <div class="flower-row cinematic-flowers">
+
+      <div class="daisy daisy-small">
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="center"></span>
+      </div>
+
+      <div class="daisy">
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="center"></span>
+      </div>
+
+      <div class="daisy daisy-small">
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="petal"></span><span class="petal"></span>
+        <span class="center"></span>
+      </div>
+
+    </div>
+
+    <p class="small-text cinematic-small">
+      A SPECIAL MESSAGE FOR YOU
+    </p>
+
+    <h1 class="cinematic-title">
+      มีจดหมาย<br>
+      มาส่งง ♡
+    </h1>
+
+    <p class="description cinematic-description">
+      ตั้งใจทำให้พัชเลยครับ<br>
+      หวังว่าจะชอบนะ
+    </p>
+
+    <button id="openBtn" class="cinematic-button">
+      เปิดตรงนี้ <span>♡</span>
+    </button>
+
+    <p class="intro-bottom-note">
+      MADE WITH LOVE · JUST FOR PHAT
+    </p>
+
+  </div>
+
+  <footer>
+    ทำด้วยความรัก ให้พัชคนเดียว
+  </footer>
+
+</section>
+
+
+<!-- PAGE 2 : PRE-SURPRISE EXPERIENCE -->
+<section class="page pre-surprise-page hidden" id="passwordPage">
+
+  <div class="pre-bg-stars" aria-hidden="true">
+    <span>✦</span><span>✧</span><span>✦</span>
+    <span>✧</span><span>✦</span><span>✧</span>
+  </div>
+
+  <div class="pre-container">
+
+    <!-- STEP 1 : PASSWORD -->
+    <div class="pre-step active" id="preStep1">
+
+      <div class="pre-eyebrow">A LITTLE MOMENT FOR YOU</div>
+      <div class="pre-main-icon">♡</div>
+
+      <h2>ก่อนจะเปิดของขวัญ...</h2>
+
+      <p class="pre-description">
+        ขอเช็กหน่อยว่าเป็นเธอจริง ๆ หรือเปล่า
+      </p>
+
+      <div class="pre-input-card">
+
+        <label>วันที่เธอเกิด</label>
+        <input type="text" id="birthdayInput"
+          placeholder="DD/MM/YYYY" autocomplete="off">
+
+        <label>วันที่เราเริ่มต้นกัน</label>
+        <input type="text" id="anniversaryInput"
+          placeholder="DD/MM/YYYY" autocomplete="off">
+
+        <p id="passwordError" class="pre-error"></p>
+
+        <button id="checkPasswordBtn" class="pre-button">
+          ยืนยัน ♡
+        </button>
+
+      </div>
+
+      <div class="pre-footer">MADE WITH LOVE, JUST FOR YOU</div>
+
+    </div>
+
+
+    <!-- STEP 2 : LETTER -->
+    <div class="pre-step" id="preStep2">
+
+      <div class="pre-eyebrow">A MESSAGE FROM ME</div>
+      <div class="pre-letter-icon">✉</div>
+
+      <h2>ถึงพัช...</h2>
+
+      <div class="pre-letter-paper">
+
+        <p class="pre-letter-line">
+          ในที่สุดก็เปิดเข้ามาแล้วนะ
+        </p>
+
+        <p class="pre-letter-line">
+          ก่อนจะไปดูของขวัญที่พี่ตั้งใจทำให้
+          พี่อยากให้เธอรู้ไว้อย่างหนึ่ง
+        </p>
+
+        <p class="pre-letter-line">
+          ทุกอย่างในหน้านี้ พี่ค่อย ๆ ทำขึ้นมา
+          เพราะอยากให้เธอมีรอยยิ้มตอนเปิดมัน
+        </p>
+
+        <p class="pre-letter-line">
+          ไม่รู้ว่าจะถูกใจแค่ไหน แต่พี่ตั้งใจทำจริง ๆ นะ ♡
+        </p>
+
+        <div class="pre-letter-sign">จากพี่ต้า ♡</div>
+
+      </div>
+
+      <button class="pre-button" id="toStep3">
+        อ่านต่อกันเถอะ →
+      </button>
+
+    </div>
+
+
+    <!-- STEP 3 : MEMORIES -->
+    <div class="pre-step" id="preStep3">
+
+      <div class="pre-eyebrow">LITTLE PIECES OF US</div>
+
+      <h2>จำช่วงเวลาเหล่านี้ได้มั้ย?</h2>
+
+      <p class="pre-description">
+        บางเรื่องอาจเป็นเรื่องเล็ก ๆ แต่พี่ก็ยังจำได้
+      </p>
+
+      <div class="pre-memory-grid">
+
+        <div class="pre-memory-card" data-memory="1">
+          <div class="pre-memory-photo">
+            <img src="images/memory1.jpg" alt="Memory 1">
+          </div>
+          <p>ช่วงเวลาน่ารัก ๆ ♡</p>
+        </div>
+
+        <div class="pre-memory-card" data-memory="2">
+          <div class="pre-memory-photo">
+            <img src="images/memory2.jpg" alt="Memory 2">
+          </div>
+          <p>สิ่งที่เธอตั้งใจทำให้</p>
+        </div>
+
+        <div class="pre-memory-card" data-memory="3">
+          <div class="pre-memory-photo">
+            <img src="images/memory3.jpg" alt="Memory 3">
+          </div>
+          <p>ความทรงจำของเรา</p>
+        </div>
+
+      </div>
+
+      <p class="pre-memory-hint">
+        แตะรูปแต่ละใบเพื่ออ่านข้อความ ♡
+      </p>
+
+      <div id="preMemoryMessage" class="pre-memory-message">
+        เลือกรูปสักใบสิ :)
+      </div>
+
+      <button class="pre-button" id="toStep4">
+        ไปต่อกัน →
+      </button>
+
+    </div>
+
+
+    <!-- STEP 4 : QUESTION -->
+    <div class="pre-step" id="preStep4">
+
+      <div class="pre-eyebrow">ONE LITTLE QUESTION</div>
+      <div class="pre-question-icon">✧</div>
+
+      <h2>ถ้าเลือกได้หนึ่งอย่าง...</h2>
+
+      <p class="pre-description">
+        เธออยากเก็บอะไรจากเรื่องราวของเราไว้มากที่สุด?
+      </p>
+
+      <div class="pre-choices">
+
+        <button class="pre-choice" data-answer="ทุกช่วงเวลาที่เราได้อยู่ด้วยกัน ♡">
+          ทุกช่วงเวลาที่เราได้อยู่ด้วยกัน
+        </button>
+
+        <button class="pre-choice" data-answer="เสียงหัวเราะและรอยยิ้มของเรา">
+          เสียงหัวเราะและรอยยิ้มของเรา
+        </button>
+
+        <button class="pre-choice" data-answer="เรื่องธรรมดาที่มีเธออยู่">
+          เรื่องธรรมดาที่มีเธออยู่
+        </button>
+
+      </div>
+
+      <div id="preAnswerMessage" class="pre-answer-message"></div>
+
+      <button class="pre-button" id="toStep5" disabled>
+        ไปเปิดของขวัญกัน →
+      </button>
+
+    </div>
+
+
+    <!-- STEP 5 : COUNTDOWN -->
+    <div class="pre-step" id="preStep5">
+
+      <div class="pre-eyebrow">SOMETHING SPECIAL IS WAITING</div>
+      <div class="pre-gift-icon">🎁</div>
+
+      <h2>พร้อมหรือยัง พัช?</h2>
+
+      <p class="pre-description">
+        ของขวัญเล็ก ๆ จากคนคนหนึ่ง
+        ที่ตั้งใจทำให้เธอมาก ๆ
+      </p>
+
+      <div class="pre-countdown" id="preCountdown">
+        3
+      </div>
+
+      <p class="pre-countdown-caption">
+        A LITTLE SURPRISE IS COMING...
+      </p>
+
+      <button class="pre-button" id="enterSurpriseBtn">
+        เปิดของขวัญ ♡
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PAGE 3 -->
+<section class="page hidden" id="surprisePage">
+
+  <header>
+    <span>♡♡♡♡♡♡♡♡</span>
+    <span>♡</span>
+  </header>
+
+  <p class="small-text">วันพิเศษของเราา</p>
+
+  <h1>สุขสันต์วันครบรอบบ</h1>
+
+  <div class="surprise-flowers">
+    🌼 💙 🌼
+  </div>
+
+  <p class="description">
+    ขอบคุณที่อยู่ด้วยกันมาครบหนึ่งเดือนนะครับ<br>
+    ขอให้วันนี้เป็นวันที่หนูมีความสุขนะ<br>
+    แล้วก็หลังจากนี้ไปนาน ๆ เลยย
+  </p>
+
+  <div class="photo-frame">
+    <img src="images/couple.jpg" alt="Our memory">
+  </div>
+
+  <p class="small-text">น่ารักจิงจิง</p>
+
+  <div class="music-box">
+    <p>♫ เพลงโปรดเธออ</p>
+    <button id="musicBtn">กดเล่นเพลง ♡</button>
+  </div>
+
+  <div class="sticker-box">
+
+    <p class="description">
+      อีกเซอร์ไพร์ทนึงง
+    </p>
+
+    <button id="stickerBtn">
+      ลองกดดูสิ ♡
+    </button>
+
+    <div id="stickers" class="stickers hidden">
+      <img src="images/phat1.jpeg" alt="Phat sticker 1">
+      <img src="images/phat2.jpeg" alt="Phat sticker 2">
+      <img src="images/phat3.jpeg" alt="Phat sticker 3">
+      <img src="images/phat4.jpeg" alt="Phat sticker 4">
+    </div>
+
+  </div>
+
+
+  <!-- MEMORY ALBUM -->
+  <section class="memory-album">
+
+    <!-- BOOK COVER -->
+    <div class="album-cover" id="albumCover">
+
+      <div class="cover-decoration">
+        <span>✿</span>
+        <span>♡</span>
+        <span>✧</span>
+      </div>
+
+      <p class="cover-kicker">A COLLECTION OF OUR MOMENTS</p>
+
+      <div class="cover-title">
+        <span>OUR</span>
+        <h2>Little Story</h2>
+        <span>MEMORY BOOK</span>
+      </div>
+
+      <div class="cover-flower">🌼</div>
+
+      <p class="cover-dedication">
+        MADE WITH LOVE<br>
+        ESPECIALLY FOR PHAT
+      </p>
+
+      <button id="openAlbumBtn" class="open-album-button">
+        OPEN OUR BOOK ♡
+      </button>
+
+      <span class="cover-bottom">28 · 10 · 2026</span>
+
+    </div>
+
+
+    <!-- BOOK CONTENT -->
+    <div class="album-inside hidden" id="albumInside">
+
+      <div class="album-heading">
+        <span class="album-kicker">อัลบัมเล็ก ๆ ของเรา</span>
+        <h2>ความทรงจำกับเธออ ♡</h2>
+        <p>เรื่องราวเล็ก ๆ ที่มีความหมายมากมาย</p>
+        <div class="album-flower">✿</div>
+      </div>
+
+      <div class="memory-grid">
+
+        <article class="memory-card">
+          <div class="polaroid">
+            <img src="images/memory1.jpg" alt="Memory 1">
+            <p>อันนี้น่ารักก ♡</p>
+          </div>
+          <span class="memory-caption"></span>
+        </article>
+
+        <article class="memory-card memory-tilt">
+          <div class="polaroid">
+            <img src="images/memory2.jpg" alt="Memory 2">
+            <p>เธอวาดให้พี่ด้วยแหละ</p>
+          </div>
+          <span class="memory-caption"></span>
+        </article>
+
+        <article class="memory-card memory-tilt">
+          <div class="polaroid">
+            <img src="images/memory3.jpg" alt="Memory 3">
+            <p>อันนี้โทรกันแรกก ๆ</p>
+          </div>
+          <span class="memory-caption"></span>
+        </article>
+
+        <article class="memory-card">
+          <div class="polaroid">
+            <img src="images/memory4.jpg" alt="Memory 4">
+            <p>กินไอติมด้วยกันน</p>
+          </div>
+          <span class="memory-caption"></span>
+        </article>
+
+      </div>
+
+
+      <!-- LOVE LETTER -->
+      <div class="memory-letter">
+
+        <span class="letter-sign">ถึงพัช</span>
+        <h2>มีอะไรจะบอกก ♡</h2>
+
+        <p>
+          ขอบคุณที่เข้ามาเป็นส่วนหนึ่งในชีวิตพี่นะ
+          ขอบคุณสำหรับเวลาที่ผ่านมา
+          ไม่ว่าจะเป็นวันที่มีความสุข วันที่เหนื่อย
+          หรือวันธรรมดาที่มีเธออยู่ด้วย
+        </p>
+
+        <p>
+          พี่ไม่ได้เก่งไปทุกเรื่อง
+          แต่พี่จะค่อย ๆ เรียนรู้และเติบโตไปด้วยกันนะ
+          หวังว่าเราสองคนจะมีรูปถ่ายและความทรงจำ
+          เพิ่มขึ้นอีกเยอะ ๆ เลย
+        </p>
+
+        <div class="letter-sign">
+          จากพี่ต้า ♡
+        </div>
+
+      </div>
+
+
+      <!-- ALBUM ENDING -->
+      <div class="album-ending" id="albumEnding">
+
+        <span class="ending-kicker">
+          THE STORY IS STILL GOING
+        </span>
+
+        <h2>อยู่กับพี่ไปนาน ๆ เลยนะ</h2>
+
+        <p>
+          ยังมีเรื่องสุขและทุกข์รออยู่
+          แต่อยากมีเธอผ่านไปด้วยกันนะ
+        </p>
+
+        <div class="ending-flowers">♡ ✿ ♡</div>
+
+        <button id="lastThingBtn" class="last-thing-button">
+          ONE LAST THING ♡
+        </button>
+
+      </div>
+
+
+      <!-- FINAL CINEMATIC SCENE -->
+      <div class="final-scene" id="finalScene">
+
+        <div class="final-scene-stars" aria-hidden="true">
+          <span>✦</span>
+          <span>✧</span>
+          <span>♡</span>
+          <span>⋆</span>
+          <span>✦</span>
+          <span>✧</span>
+        </div>
+
+        <div class="final-content">
+
+          <span class="final-kicker">
+            TO MY FAVORITE PERSON
+          </span>
+
+          <div class="final-heart">♡</div>
+
+          <p class="final-small-text">
+            AND IF I COULD CHOOSE AGAIN...
+          </p>
+
+          <h2>
+            ก็ยังอยาก<br>
+            <span>มีเธออยู่ดี</span>
+          </h2>
+
+          <p class="final-message">
+            ไม่รู้ว่าอนาคตจะมีเรื่องราวแบบไหนรอเราอยู่บ้าง
+            แต่พี่อยากค่อย ๆ สร้างความทรงจำดี ๆ
+            ไปกับเธออีกเยอะ ๆ เลยนะ
+          </p>
+
+          <div class="final-decoration">
+            ✿ &nbsp; ♡ &nbsp; ✧
+          </div>
+
+          <p class="final-signature">
+            WITH LOVE, ALWAYS
+          </p>
+
+          <p class="final-name">
+            จากพี่ต้า ♡
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CINEMATIC MEMORY GALLERY -->
+  <div class="memory-lightbox" id="memoryLightbox">
+
+    <button class="memory-lightbox-close" id="closeMemoryLightbox">
+      ×
+    </button>
+
+    <img id="lightboxImage" src="" alt="Memory">
+
+    <div class="gallery-caption">
+      <h3 id="galleryTitle">Our Memory ♡</h3>
+      <p>EVERY MOMENT MATTERS</p>
+    </div>
+
+    <div class="gallery-controls">
+
+      <button class="gallery-arrow" id="galleryPrev">
+        ‹
+      </button>
+
+      <span class="gallery-counter" id="galleryCounter">
+        01 / 04
+      </span>
+
+      <button class="gallery-arrow" id="galleryNext">
+        ›
+      </button>
+
+    </div>
+
+  </div>
+
+  <footer>
+    MADE ESPECIALLY FOR YOU · PHAT ♡
+  </footer>
+
+</section>
+
+
+<audio id="favoriteSong" src="music/favorite-song.mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
