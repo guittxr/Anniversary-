@@ -32,7 +32,7 @@ function showPage(pageId) {
 // MUSIC
 // ========================================
 
-const introSong = new Audio("music/intro.mp3");
+const introSong = new Audio("intro.mp3");
 introSong.loop = true;
 introSong.volume = 0.5;
 
@@ -482,10 +482,10 @@ favoriteSong.addEventListener("ended", () => {
 const stickerBtn = document.getElementById("stickerBtn");
 
 const stickerImages = [
-  "images/phat1.jpeg",
-  "images/phat2.jpeg",
-  "images/phat3.jpeg",
-  "images/phat4.jpeg"
+  "phat1.jpeg",
+  "phat2.jpeg",
+  "phat3.jpeg",
+  "phat4.jpeg"
 ];
 
 stickerBtn.addEventListener("click", () => {
@@ -615,10 +615,10 @@ const galleryPrev = document.getElementById("galleryPrev");
 const galleryNext = document.getElementById("galleryNext");
 
 const memoryImages = [
-  { src: "images/memory1.jpg", title: "อันนี้น่ารักก ♡" },
-  { src: "images/memory2.jpg", title: "เธอวาดให้พี่ด้วยแหละ" },
-  { src: "images/memory3.jpg", title: "อันนี้โทรกันแรกก ๆ" },
-  { src: "images/memory4.jpg", title: "กินไอติมด้วยกันน" }
+  { src: "memory1.jpg", title: "อันนี้น่ารักก ♡" },
+  { src: "memory2.jpg", title: "เธอวาดให้พี่ด้วยแหละ" },
+  { src: "memory3.jpg", title: "อันนี้โทรกันแรกก ๆ" },
+  { src: "memory4.jpg", title: "กินไอติมด้วยกันน" }
 ];
 
 let currentMemory = 0;
